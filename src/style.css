@@ -1,0 +1,144 @@
+
+  *,*:before,*:after {
+    box-sizing: border-box;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0;
+  }
+
+  body, input, button {
+    font-family: 'Montserrat', sans-serif;
+  }
+  form{
+    margin-top: 50px;
+  }
+ .container {
+  height: 100vh;
+  display: flex;
+  margin: auto;
+  max-width: 500px;
+  background: white;
+  box-shadow: 0 0 40px 6px #706f6f;
+  flex-direction: column;
+  align-items:center;
+  background: url('./pxfuel.com.jpg');
+  background-size: cover; 
+  }
+.completeTask{
+  font-size: 17px;
+  border-bottom: 1px solid #333;
+  margin-top: 10px;
+  width: 400px;
+}
+ #myMap-Box{
+
+  font-size: 17px;
+  border-bottom: 1px solid #333;
+  margin-top: 10px;
+ }
+   ul li, h3:before  {
+    content: '✓';
+    list-style: none;
+    width: 100%;
+
+  }
+  .editbtn{
+    margin-left: 10px;
+    background: rgb(0, 162, 255);
+    width: 60px;
+
+  }
+  .editbtn:hover {
+    background: rgb(0, 162, 255);
+    color: white;
+    box-shadow: 5px 5px rgb(100, 198, 255);
+  }
+  .editinput{
+    border-radius: 5px;
+    margin: 0 5px 15px;
+    border: 2px solid rgb(2, 101, 231);
+    font-size: 17px;
+  }
+  .deletebtn{
+    background: rgb(255, 0, 0);
+  }
+  .deletebtn:hover {
+    background: rgb(255, 0, 0);
+    color: white;
+    box-shadow: 5px 5px rgb(248, 117, 117);
+  }
+  button{
+    margin: 0 5px 15px;
+    background: rgb(0, 199, 139);
+    outline: none;
+    color: white;
+    border: none; 
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  button:focus {
+    color: rgb(63, 63, 63);
+  }
+ button:hover {
+    background: #00c257;
+    color: white;
+    box-shadow: 5px 5px rgb(121, 237, 144);
+  }
+
+  button{
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+   
+  }
+  button::before{
+    z-index: -1;
+    transition: 0.3s ease-in-out;
+  }
+
+  input[type="text"] {
+    margin: 10px 2px 0 ;
+    font-size: 18px;
+    line-height: 18px;
+    height: 18px;
+    padding: 12px;
+    border: 1px solid rgb(201, 199, 199);
+    background: #fff;
+    border-radius: 5px;
+    font-family: Lato, sans-serif;
+    color: #888;
+  }
+  input[type="text"]:focus {
+    color: #333;
+  }
+  
+
+  label[for='new-map'] {
+    display: block;
+    margin: 0 0 20px; 
+  }
+
+  .date{
+    display: grid;
+    align-self: flex-end;
+    color: rgb(0, 255, 255);
+    font-size: 30px;
+  }
+  .todo{
+    color: rgb(0, 255, 255);
+  }
+
+  .edit-MyMap{
+    margin-right: 50px;
+    width: 500px;
+  }
+
+ 
+
+
+
+
+  
+ 
+
